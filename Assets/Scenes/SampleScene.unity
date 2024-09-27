@@ -412,8 +412,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 192
   wallRunForce: 200
-  wallRunJumpUpForce: 7
-  wallRunJumpSideForce: 14
+  wallRunJumpUpForce: 16
+  wallRunJumpSideForce: 16
   maxWallRunTime: 1.5
   wallClimbSpeed: 4
   jumpKey: 32
@@ -422,10 +422,10 @@ MonoBehaviour:
   doJumpOnEndOfTimer: 0
   resetDoubleJumpsOnNewWall: 1
   resetDoubleJumpsOnEveryWall: 0
-  allowedWallJumps: 1
-  wallCheckDistance: 0.8
+  allowedWallJumps: 5
+  wallCheckDistance: 0.7
   minJumpHeight: 1.5
-  exitWallTime: 0.2
+  exitWallTime: 0.1
   useGravity: 0
   yDrossleSpeed: 0
   orientation: {fileID: 43041647}
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientation: {fileID: 43041647}
   playerObj: {fileID: 1676653817}
-  maxSlideTime: 2
-  slideForce: 200
+  maxSlideTime: 0.5
+  slideForce: 300
   slideYScale: 0.5
   slideKey: 306
 --- !u!114 &287199888
@@ -460,10 +460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c702136e0aa186a4e9e03486b2b4bcc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 7
-  sprintSpeed: 10
+  walkSpeed: 10
+  sprintSpeed: 13
   slideSpeed: 30
-  wallrunSpeed: 7
+  wallrunSpeed: 10
   speedIncreaseMultiplier: 1.5
   slopeIncreaseMultiplier: 2.5
   groundDrag: 4
@@ -1010,7 +1010,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.76659, y: 4.21528, z: -1.5990989}
-  m_LocalScale: {x: 57.91759, y: 1.1256527, z: 55.495277}
+  m_LocalScale: {x: 189.35689, y: 1.1256527, z: 215.01892}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871468683}
